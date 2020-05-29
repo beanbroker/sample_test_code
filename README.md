@@ -1,4 +1,3 @@
-
 # 테스트
 
 ## 테스트는 왜 필요한가?
@@ -166,9 +165,16 @@ https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframe
 물론 이외에도 boardId를 잘못 넘겨 존재 하지 않을 경우 httpstatusCode를 400대로 던져 테스트할수 있다. 직접해보자 여기선 하지 않는다.
 
 
-이외에도 WebMvcTest, DataJpaTest, 도메인 테스트 등 다양한 테스트 방법이 존재한다. 사실... 이렇게 1편을 만든이유는.... Spock로 테스트를 짜보기 위함이다.... 그래야 2편이 기대되니.. 허허허허
+> 기존에 테스트코드를 정리한부분이 있어 공유
 
+[Junit4->5로 간단 변경사항 @Before 명이 바뀌였음~~](
+https://beanbroker.github.io/2019/10/05/Java/test_after_before/)
 
-참고사항 작년에 작성한 Junit4->5로 변경된 사항 (2번 보자)
+[Test code 1](
+https://beanbroker.github.io/2018/07/28/Spring/test_code1/)
 
-https://beanbroker.github.io/2019/10/05/Java/test_after_before/
+[Test code 2](
+https://beanbroker.github.io/2018/08/04/Spring/test_code2/)
+
+[Test code 3](
+https://beanbroker.github.io/2018/08/04/Spring/test_code3/)
